@@ -95,7 +95,7 @@
     "evolutions": [
         [
             "EVO_LEVEL",
-            16,
+            21,
             "SPECIES_KADABRA"
         ]
     ],

@@ -36,17 +36,18 @@
             [ 1, "MOVE_TELEPORT" ],
             [ 1, "MOVE_KINESIS" ],
             [ 1, "MOVE_CONFUSION" ],
-            [ 16, "MOVE_CONFUSION" ],
-            [ 18, "MOVE_DISABLE" ],
-            [ 22, "MOVE_MIRACLE_EYE" ],
-            [ 24, "MOVE_PSYBEAM" ],
-            [ 28, "MOVE_REFLECT" ],
-            [ 30, "MOVE_RECOVER" ],
-            [ 34, "MOVE_PSYCHO_CUT" ],
-            [ 36, "MOVE_ROLE_PLAY" ],
-            [ 40, "MOVE_PSYCHIC" ],
-            [ 42, "MOVE_FUTURE_SIGHT" ],
-            [ 46, "MOVE_TRICK" ]
+            [ 21, "MOVE_KINESIS" ],
+            [ 21, "MOVE_CONFUSION" ],
+            [ 23, "MOVE_DISABLE" ],
+            [ 27, "MOVE_MIRACLE_EYE" ],
+            [ 29, "MOVE_PSYBEAM" ],
+            [ 33, "MOVE_REFLECT" ],
+            [ 35, "MOVE_RECOVER" ],
+            [ 39, "MOVE_PSYCHO_CUT" ],
+            [ 41, "MOVE_ROLE_PLAY" ],
+            [ 45, "MOVE_PSYCHIC" ],
+            [ 47, "MOVE_FUTURE_SIGHT" ],
+            [ 51, "MOVE_TRICK" ]
         ],
         "by_tm": [
             "TM01",
@@ -106,7 +107,11 @@
         ]
     },
     "evolutions": [
-        [ "EVO_TRADE", "SPECIES_ALAKAZAM" ]
+        [
+            "EVO_LEVEL",
+            42,
+            "SPECIES_ALAKAZAM"
+        ]
     ],
     "footprint": {
         "has": true,
